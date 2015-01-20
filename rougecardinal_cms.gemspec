@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'aws-sdk'
   s.add_dependency 'friendly_id', '~> 5.0.0'
 
-  s.add_dependency 'sass-rails', '~> 4.0.0'
+  s.add_dependency 'sass-rails', '~> 5.0.0'
 
   # Use Uglifier as compressor for JavaScript assets
   s.add_dependency 'uglifier', '>= 1.3.0'
