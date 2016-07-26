@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
   s.require_paths = ["lib"]
 
-  s.add_dependency "rails", "~> 4.2.0"
-  s.add_dependency "pg", "~> 0.17.1"
+  s.add_dependency "rails", "~> 5.0.0"
+  s.add_dependency "pg", "~> 0.17"
 
 
 
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'uglifier', '>= 1.3.0'
 
   # Use CoffeeScript for .js.coffee assets and views
-  s.add_dependency 'coffee-rails', '~> 4.0.0'
+  s.add_dependency 'coffee-rails', '~> 4.2.0'
 
   # css
   s.add_dependency 'bootstrap-sass'
