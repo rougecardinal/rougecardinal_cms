@@ -24,8 +24,8 @@ Gem::Specification.new do |s|
 
 
   s.add_dependency 'devise'
-  s.add_dependency 'aws-sdk'
   s.add_dependency 'paperclip', '~> 5.2'
+  s.add_dependency 'aws-sdk-s3'
   s.add_dependency 'friendly_id', '~> 5.0.0'
 
   s.add_dependency 'sass-rails', '~> 5.0.0'
