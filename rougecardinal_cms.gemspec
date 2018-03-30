@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "rails", "~> 5.1.0"
-  s.add_dependency "pg", "~> 0.17"
+  s.add_dependency "pg", "~> 1.0"
 
 
 
@@ -39,8 +39,6 @@ Gem::Specification.new do |s|
   # css
   s.add_dependency 'bootstrap-sass'
   s.add_dependency 'haml-rails'
-  s.add_dependency 'newrelic_rpm'
-  s.add_dependency 'bourbon'
   s.add_dependency 'refraction'
   s.add_dependency 'jquery-rails'
 
