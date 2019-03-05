@@ -37,7 +37,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'coffee-rails', '~> 4.2.0'
 
   # css
-  s.add_dependency 'bootstrap-sass'
+  s.add_dependency 'bootstrap-sass', "~> 3.4.1"
   s.add_dependency 'haml-rails'
   s.add_dependency 'refraction'
   s.add_dependency 'jquery-rails'
