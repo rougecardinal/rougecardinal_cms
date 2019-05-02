@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "rails", "~> 4.2.0"
-  s.add_dependency "pg", "~> 0.17.1"
+  s.add_dependency "pg", "~> 0.21"
 
 
 
